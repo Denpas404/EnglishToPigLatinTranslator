@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishToPigLatinTranslatorConsoleApp", "EnglishToPigLatinTranslatorConsoleApp\EnglishToPigLatinTranslatorConsoleApp.csproj", "{9038C8EF-B7B0-4DD0-93C8-CB63DAF33B4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishToPigLatinTranslatorClassLibrary", "EnglishToPigLatinTranslatorClassLibrary\EnglishToPigLatinTranslatorClassLibrary.csproj", "{019883E7-A7FC-4E3A-8E67-2A47700A1200}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9038C8EF-B7B0-4DD0-93C8-CB63DAF33B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9038C8EF-B7B0-4DD0-93C8-CB63DAF33B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9038C8EF-B7B0-4DD0-93C8-CB63DAF33B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9038C8EF-B7B0-4DD0-93C8-CB63DAF33B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{019883E7-A7FC-4E3A-8E67-2A47700A1200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{019883E7-A7FC-4E3A-8E67-2A47700A1200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{019883E7-A7FC-4E3A-8E67-2A47700A1200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{019883E7-A7FC-4E3A-8E67-2A47700A1200}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35B4094B-4953-414E-801B-5DC83E7959B2}
+	EndGlobalSection
+EndGlobal
