@@ -11,14 +11,14 @@ namespace EnglishToPigLatinTranslatorClassLibrary
     {
         public string TranslateToPigLatinSingleWords(string input)
         {
-            char[] vowels = new[] { 'A', 'E', 'I', 'O', 'U', 'Å', 'Æ', 'Ø', 'ø', 'æ', 'å', 'a', 'e', 'i', 'o', 'u' };
-            char[] vowelsExtended = vowels.Concat(new[] { 'Y', 'y' }).ToArray();
+            char[] vowels = new[] { 'A', 'E', 'I', 'O', 'U', 'Y', 'Å', 'Æ', 'Ø', 'ø', 'æ', 'å', 'a', 'e', 'i', 'o', 'u', 'y' };
+            //char[] vowelsExtended = vowels.Concat(new[] { 'Y', 'y' }).ToArray();
             string output = Regex.Replace(input, @"\w+", m =>
             {
                 string word = m.Value;
                 if (vowels.Contains(word[0])) return word + "yay";
 
-                int indexOfVowel = word.IndexOfAny(vowelsExtended, 1);
+                int indexOfVowel = word.IndexOfAny(vowels, 1);
                 
                 if (indexOfVowel == -1) return word + "ay";
                 

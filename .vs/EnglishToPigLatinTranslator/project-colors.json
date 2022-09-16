@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9038c8ef-b7b0-4dd0-93c8-cb63daf33b4e": {
+      "ProjectGuid": "9038c8ef-b7b0-4dd0-93c8-cb63daf33b4e",
+      "DisplayName": "EnglishToPigLatinTranslatorConsoleApp",
+      "ColorIndex": 0
+    },
+    "019883e7-a7fc-4e3a-8e67-2a47700a1200": {
+      "ProjectGuid": "019883e7-a7fc-4e3a-8e67-2a47700a1200",
+      "DisplayName": "EnglishToPigLatinTranslatorClassLibrary",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
